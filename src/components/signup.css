@@ -1,0 +1,36 @@
+
+.Signup-container{
+  margin: 50px auto;
+display: flex;
+justify-content: center;
+  width: 450px;
+  height: 450px;
+border-left: 1px solid rgb(223, 222, 222);
+border-radius:4px;
+  box-shadow: 4px 1px 2px 1px black;
+}
+p{
+ float: inline-start;
+ padding-top: 25px;
+}
+.myForm{
+  width: 300px;
+  margin-top:32px;
+
+
+}
+.heading{
+  background-color: rgba(86, 211, 86, 0.288);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  width: 250px;
+  min-width:250px;
+  height: fit-content;
+}
+h3,label{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn{
+ min-width: 250px;
+}
