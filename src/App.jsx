@@ -10,7 +10,7 @@ import Features from "./components/Features";
 const App = () => {
   return (
     <Signup/>
-    <BrowserRouter>
+    <BrowserRouter basename="/signup">
       <Routes>
         <Route path="/" element={<Login />}></Route>
         <Route path="/home" element={<Home />} />
